@@ -1,0 +1,36 @@
+body{
+    background-color: #B7C4CF;
+}
+#title{
+
+    position: absolute;
+    left: 50%;
+}
+svg{
+    display: block;
+    margin: 10px auto ;
+   
+}
+.bar{
+    fill: #ABD9FF;
+    border: solid aliceblue 1px;
+}
+.bar:hover{
+    fill: aliceblue;
+}
+.tooltip{
+    background-color: #5F6F94;
+    box-shadow: 5px 5px 10px grey;
+    width: 110px;
+    height: 50px;
+    font-size: medium;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    position: absolute;
+
+    top: 350px;
+    
+    opacity: 0;
+}
+ 
